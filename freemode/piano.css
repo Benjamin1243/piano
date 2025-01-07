@@ -1,0 +1,65 @@
+.piano-container{
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: repeat(15,1fr);
+    background-color: black;
+    border-radius: 0.62rem;
+    border: 1px solid white;
+    
+}
+.white-key{
+    background-color: white;
+    width: auto;
+    grid-row: 1;
+    height: 8rem;
+    border: 1px solid black;
+    border-radius:  0 0 0.3rem 0.3rem;
+}
+.white-key:hover{
+    background-color: #ebebeb;
+}
+.black-key{
+    background-color: rgb(0, 0, 0);
+    grid-row: 1;
+    justify-self: center;
+    align-self: start;
+    height: 3rem;
+    width: 2rem;
+    
+    border: 1px solid black;
+   
+}
+.black-key:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.key--down{
+    transition: 0.2s;
+    background-color:  rgb(136, 132, 132);
+}
+.key--down:hover{
+    background-color: rgb(136, 132, 132);
+   
+}
+
+.black-key:nth-child(1){
+    left: 3.5rem;
+}
+.black-key:nth-child(2){
+    left: 3.5rem;
+}
+.black-key:nth-child(3){
+    left: 12rem;
+}
+.black-key:nth-child(4){
+    left: 16rem;
+}
+div.right--key.key--down{
+    background-color: green;
+}
+div.wrong--key.key--down{
+    background-color: rgb(255, 0, 0);
+}

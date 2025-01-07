@@ -1,0 +1,10 @@
+Fejl der er lige nu:
+Når man kun har slået major7 til og man så slår minor til igen, opstår der en uventet fejl.
+
+fejl ligger i selv opbygning af de sorte tangenter //Tjekked
+
+på det virtuelle klaver kan den kun detected en trklag, hvis man spiller tre toner, mned hvad hvis man dobler nogle toner
+
+Ekstra feuatures
+
+Der skal kunne vælges lyde til klaveret
